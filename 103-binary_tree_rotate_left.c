@@ -5,6 +5,7 @@
  * @tree: is a pointer to the root node of the tree to rotate.
  * Return: is a pointer to the new root node after rotation.
  **/
+
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree)
 {
 	binary_tree_t *chl, *parent = tree;
