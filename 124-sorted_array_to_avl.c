@@ -7,6 +7,7 @@
  * @final_index: sub array end index
  * Return: pointer to root
  **/
+
 avl_t *sorted_array_to_avl_revursive(int *array, int first_index,
 		int final_index)
 {
