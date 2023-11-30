@@ -7,6 +7,7 @@
  * @value: the value
  * Return: pointer to the new_node node
  **/
+
 avl_t *avl_insert_full(avl_t *tree, avl_t *parent, int value)
 {
 	avl_t *new_node;
