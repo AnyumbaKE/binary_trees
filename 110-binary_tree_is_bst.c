@@ -7,6 +7,7 @@
  * @max: max value
  * Return: 1 if success, 0 otherwise
  */
+
 int isBST(const binary_tree_t *tree, int min, int max)
 {
 	if (tree == NULL)
