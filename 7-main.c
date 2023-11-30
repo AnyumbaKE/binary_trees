@@ -7,7 +7,6 @@
  *
  * @n: Number to be printed
  */
-
 void print_num(int n)
 {
 	printf("%d\n", n);
