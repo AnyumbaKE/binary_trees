@@ -4,6 +4,7 @@
  * @root: pointer to the tree
  * Return: the min number
  **/
+
 bst_t *min_finder(bst_t *root)
 {
 	while (root->left != NULL)
