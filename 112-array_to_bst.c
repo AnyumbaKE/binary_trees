@@ -6,6 +6,7 @@
  * @size: The number of elements in @array.
  * Return: A pointer to the root node of the created BST, or NULL upon failure.
  **/
+
 bst_t *array_to_bst(int *array, size_t size)
 {
 	size_t length;
