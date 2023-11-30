@@ -5,7 +5,6 @@
  * @tree: tree to go through
  * Return: the height
  */
-
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t l = 0;
@@ -45,6 +44,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 	}
 	return (total);
 }
+
 /**
  * tree_is_perfect - function that says if a tree is perfect or not
  * it has to be the same quantity of levels in left as right, and also
@@ -97,6 +97,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (0);
 	}
 }
+
 /**
  * binary_tree_is_heap - checks if a binary tree is a valid Max Binary Heap
  * @tree: tree to check
