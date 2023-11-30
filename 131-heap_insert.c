@@ -5,6 +5,7 @@
  * @tree: tree root
  * Return: height
  */
+
 int height(const binary_tree_t *tree)
 {
 	int left = 0;
