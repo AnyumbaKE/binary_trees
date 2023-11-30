@@ -7,6 +7,7 @@
  * Return: If the tree is NULL or the value is not found, NULL.
  *         Otherwise, a pointer to the node containing the value.
  **/
+
 bst_t *bst_search(const bst_t *tree, int value)
 {
 	if (tree != NULL)
