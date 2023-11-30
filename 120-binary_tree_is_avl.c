@@ -30,6 +30,7 @@ size_t height(const binary_tree_t *tree)
  * @hi: The value of the largest node visited this far.
  * Return: If the tree is a valid AVL tree, 1, otherwise, 0.
  **/
+
 int is_avl_helper(const binary_tree_t *tree, int lo, int hi)
 {
 	size_t lhgt, rhgt, diff;
