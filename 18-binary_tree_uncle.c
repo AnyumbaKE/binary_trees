@@ -7,6 +7,7 @@
  * Return: If node is NULL or has no uncle, NULL.
  *         Otherwise, a pointer to the uncle node.
  **/
+
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	if (node == NULL ||
