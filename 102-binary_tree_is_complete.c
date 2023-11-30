@@ -13,6 +13,7 @@ int binary_tree_is_complete(const binary_tree_t *tree);
  * Return: If an error occurs, NULL.
  *         Otherwise, a pointer to the new node.
  **/
+
 levelorder_queue_t *create_node(binary_tree_t *node)
 {
 	levelorder_queue_t *new;
