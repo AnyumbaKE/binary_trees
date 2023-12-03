@@ -19,7 +19,7 @@ int main(void)
 	binary_tree_insert_right(root, 128);
 	binary_tree_print(root);
 
-	size = binary_tree_depth(root);
+	size = binary_tree_size(root);
 	printf("Depth of %d: %lu\n", root->n, size);
 	size = binary_tree_size(root->right);
 	printf("Size of %d: %lu\n", root->right->n, size);
