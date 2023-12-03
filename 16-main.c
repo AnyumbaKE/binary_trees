@@ -21,7 +21,7 @@ int main(void)
 	root->right->left = binary_tree_node(root->right, 10);
 
 	binary_tree_print(root);
-	pefect = binary_tree_is_perfect(root);
+	perfect = binary_tree_is_perfect(root);
 	printf("Perfect: %d\n\n", perfect);
 
 	root->right->right->left = binary_tree_node(root->right->right, 10);
